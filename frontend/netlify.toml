@@ -1,4 +1,4 @@
 [build]
   base = "frontend"
-  publish = "frontend/.netlify"
+  publish = ".next"
   command = "npm run build"
