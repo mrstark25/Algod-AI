@@ -28,7 +28,7 @@ export default function Home() {
     ]);
 
     const response = await fetch(
-      (`${process.env.NEXT_PUBLIC_API_URL}/chat/message`),
+      ('https://algod-ai.onrender.com/chat/message'),
       {
         method: "POST",
         headers: {
